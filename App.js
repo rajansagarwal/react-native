@@ -3,21 +3,21 @@ import { StyleSheet, Text, View, SafeAreaView, SectionList, StatusBar } from "re
 
 const DATA = [
   {
-    title: "Main dishes",
-    data: ["Pizza", "Burger", "Risotto"]
+    title: "Data Set 1",
+    data: ["1", "2", "3"]
   },
   {
-    title: "Sides",
-    data: ["French Fries", "Onion Rings", "Fried Shrimps"]
+    title: "Data Set 2",
+    data: ["1", "2", "3"]
   },
   {
-    title: "Drinks",
-    data: ["Water", "Coke", "Beer"]
+    title: "Data Set 3",
+    data: ["1", "2", "3"]
   },
   {
-    title: "Desserts",
-    data: ["Cheese Cake", "Ice Cream"]
-  }
+    title: "Data Set 4",
+    data: ["1", "2", "3"]
+  },
 ];
 
 const Item = ({ title }) => (
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 16
   },
   item: {
-    backgroundColor: "#f9c2ff",
+    backgroundColor: "#e9e9e9",
     padding: 20,
     marginVertical: 8
   },
