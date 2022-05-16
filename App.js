@@ -3,19 +3,19 @@ import { StyleSheet, Text, View, SafeAreaView, SectionList, StatusBar } from "re
 
 const DATA = [
   {
-    title: "Data Set 1",
+    title: "Data 1",
     data: ["1", "2", "3"]
   },
   {
-    title: "Data Set 2",
+    title: "Data 2",
     data: ["1", "2", "3"]
   },
   {
-    title: "Data Set 3",
+    title: "Data 3",
     data: ["1", "2", "3"]
   },
   {
-    title: "Data Set 4",
+    title: "Data 4",
     data: ["1", "2", "3"]
   },
 ];
